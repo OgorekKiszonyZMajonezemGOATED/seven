@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-image: url(minion.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+}
+
+.obiekt {
+  position: absolute;
+  width: 60px;
+  height: 90px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Press Start 2P';
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#Wynik {
+  font-family: 'Press Start 2P';
+  z-index: 10;
+  font-size: 40px;
+  width: auto;
+  color: aliceblue;
+}
+
+#ekranKoncowy {
+  width: 100%;
+  text-align: center;
+  font-family: 'Press Start 2P';
+  font-size: 80px;
+  margin-top: 400px;
+  visibility: hidden;
+  color: aliceblue; 
+}
+
+#ekranKoncowy2 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Press Start 2P';
+  font-size: 60px;
+  margin-top: 200px;
+  visibility: hidden;
+  color: aliceblue; 
+}
+#ekranKoncowy3 {
+  width: 100%;
+  text-align: center;
+  font-family: 'Press Start 2P';
+  font-size: 20px;
+  margin-top: 10px;
+  visibility: hidden;
+  color: aliceblue; 
+}
+
